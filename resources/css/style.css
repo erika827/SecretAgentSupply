@@ -1,0 +1,134 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+body {
+  background-color: black;
+  width: 1160px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.66rem;
+  color: white;
+}
+
+header img {
+  height: 1.5rem;
+  margin-left: 6.5rem;
+  margin-right: 1rem;
+}
+
+
+#main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+#main .main-content {
+  width: 20rem;
+  background-color: black;
+  color: white;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  margin-left: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+
+}
+
+ h3 {
+   font-size: 1rem;
+   font-weight: bold;
+   margin-bottom: 0.25rem;
+ }
+
+ h1 {
+   font-size: 2rem;
+   font-weight: bold;
+ }
+
+ nav {
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: firebrick;
+ }
+
+nav ul {
+  display: flex;
+  width: 960px;
+  margin-left: 6rem;
+  justify-content: space-between;
+}
+
+ nav li {
+      display: inline-flex;
+      flex-flow: row nowrap;
+      padding: 0.75rem;
+      color: white;
+ }
+
+#products {
+  background-color: white;
+  justify-content: center;
+}
+
+.item-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 960px;
+  padding-left: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  border: 4px solid black;
+  width: 30%;
+  height: 15rem;
+
+}
+
+.item img {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-height: 9rem;
+  padding: 2rem;
+}
+
+.caption {
+  height: 1.5rem;
+  width: 100%;
+  color: white
+  background-color: black;
+  background-color: black;
+  display: block;
+  overflow: hidden;
+  border: 4px solid black;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+
+
+}
