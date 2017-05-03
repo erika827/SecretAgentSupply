@@ -87,8 +87,9 @@ nav ul {
 .item-container {
   display: inline-flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-content: space-between;
   width: 960px;
   padding-left: 6rem;
   padding-top: 3rem;
@@ -129,6 +130,100 @@ nav ul {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 
+}
+
+#location-hours {
+  background-color: white;
+  justify-content: center;
+}
+
+.location-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 960px;
+  padding-left: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.location {
+  display: block;
+  text-align: left;
+  width: 35%;
+  height: 2rem;
+
+}
+
+.location p {
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
 
 
+.hours {
+  display: block;
+  text-align: left;
+  width: 35%;
+  height: 2rem;
+
+}
+
+.hours p {
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.detail-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 960px;
+  padding-left: 6rem;
+  padding-bottom: 3rem;
+}
+
+.coordinates {
+  display: block;
+  text-align: left;
+  width: 35%;
+  height: 2rem;
+
+}
+
+.coordinates p {
+  background-color: white;
+  color: black;
+}
+
+.hours-actual {
+  display: block;
+  text-align: left;
+  width: 35%;
+  height: 2rem;
+
+}
+
+.hours-actual p {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  width: 960px;
+  height: 5rem;
+  padding-left: 6rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  text-align: left;
 }
